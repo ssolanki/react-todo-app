@@ -28,10 +28,9 @@ ratings:
   - '**.php'
   - '**.py'
   - '**.rb'
-exclude_paths:[
+exclude_paths:
   - "public/"
   - node_modules/
-  ]
 # Save as .codeclimate.yml (note leading .) in project root directory
 languages:
   Ruby: false
