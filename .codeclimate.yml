@@ -1,11 +1,3 @@
----
-engines:
-  fixme:
-    enabled: true
-ratings:
-  paths: []
-exclude_paths: []
----
 engines:
   duplication:
     enabled: true
@@ -24,18 +16,10 @@ ratings:
   - '**.inc'
   - '**.js'
   - '**.jsx'
-  - '**.module'a
+  - '**.module'
   - '**.php'
   - '**.py'
   - '**.rb'
 exclude_paths:
-  - "public/main.js"
-# Save as .codeclimate.yml (note leading .) in project root directory
-languages:
-  Ruby: false
-  JavaScript: true
-  PHP: true
-  Python: false
-exclude_paths:
-# excluding of main repository paths from Code climate
+- "public/main.js"
 - 'node_modules'
